@@ -1,5 +1,11 @@
 # mpvue-demo
 
+登录管理邮箱 yc_team_demo@163.com
+密码 ycdemo4mini
+appId wx82bceab16ee01f61
+appSecret 371cc5ad40a846208f64adc8c0d432bf
+原始ID gh_81346474794a
+
 > A Mpvue project
 
 ## Build Setup
