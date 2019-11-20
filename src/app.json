@@ -4,6 +4,15 @@
     "pages/logs/main",
     "pages/counter/main"
   ],
+  "subPackages":[
+    {
+        "root":"pages/subPackageA/",
+        "pages":[
+            "index/main",
+            "credential/main"
+        ]
+    }
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
