@@ -1,24 +1,13 @@
 <template>
-  <div class="main-index">
-    <span class="text">this is main index page</span>
-    <button type="primary" @click="toSubpackage">to subpackage a</button>
+  <div>
+    subpackage a ---credential
   </div>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-      
-    }
-  },
-
-  methods: {
-    toSubpackage() {
-      wx.navigateTo({
-        url: '/pages/subPackageA/index/main'
-      })
-    }
+  data() {
+    return {}
   }
 }
 </script>
