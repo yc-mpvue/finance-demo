@@ -1,0 +1,39 @@
+.box {
+  width: 686rpx;
+  margin: 0 auto;
+}
+
+.article-detail {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+
+  &-title {
+    @extend .box;
+    font-size: 38rpx;
+    color: #333333;
+    word-wrap: break-word;
+  }
+
+  &-date {
+    @extend .box;
+    font-size: 26rpx;
+    color: #999999;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+  }
+
+  &-html {
+    @extend .box;
+    word-wrap: break-word;
+  }
+
+  &-foot {
+    font-size: 24rpx;
+    color: #999999;
+    margin-top: 43rpx;
+    margin-bottom: 30rpx;
+    width: 750rpx;
+    text-align: center;
+  }
+}
