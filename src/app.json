@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
+    "pages/personalCenter/main",
     "pages/counter/main"
   ],
   "subPackages":[
@@ -35,6 +36,11 @@
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/personalCenter/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
     }],
 
     "items": [{
@@ -45,6 +51,11 @@
     }, {
       "name": "订单",
       "pagePath": "pages/logs/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }, {
+      "name": "我的",
+      "pagePath": "pages/personalCenter/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
     }],
