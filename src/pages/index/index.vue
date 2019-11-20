@@ -1,6 +1,6 @@
 <template>
   <div class="main-index">
-    <span class="text">this is main index page</span>
+    <span class="text">我来push 到github</span>
     <button type="primary" @click="toSubpackage">to subpackage a</button>
   </div>
 </template>
