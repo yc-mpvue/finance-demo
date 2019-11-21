@@ -9,7 +9,7 @@
     {
       "root": "pages/subPackageA/",
       "pages": [
-        "pages/articleDetail/main",
+        "articleDetail/main",
         "index/main",
         "credential/main"
       ]

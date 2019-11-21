@@ -1,15 +1,13 @@
 <template>
   <div class="article-detail">
 
-    <div class="article-detail-titl">{{title}}</div>
+    <div class="article-detail-title">{{title}}</div>
 
     <div class="article-detail-date">{{date}}</div>
 
     <div class="article-detail-html">
-      <parser :html="content"></parser>
+      <parser :html="content" lazy-load show-with-animation></parser>
     </div>
-
-    <div class="article-detail-foot">- 到底了哦 -</div>
 
   </div>
 </template>
