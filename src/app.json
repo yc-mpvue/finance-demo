@@ -1,17 +1,15 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main",
-    "pages/inviteFriend/main"
+    "pages/home/main",
+    "pages/invite/main",
+    "pages/my/main"
   ],
   "subPackages": [
     {
       "root": "pages/subPackageA/",
       "pages": [
         "articleDetail/main",
-        "index/main",
-        "credential/main"
+        "webview/main"
       ]
     }
   ],
@@ -29,41 +27,21 @@
     "list": [
       {
         "text": "首页",
-        "pagePath": "pages/index/main",
+        "pagePath": "pages/home/main",
         "iconPath": "static/tabs/home.png",
         "selectedIconPath": "static/tabs/home-active.png"
       },
       {
-        "text": "订单",
-        "pagePath": "pages/logs/main",
+        "text": "邀请",
+        "pagePath": "pages/invite/main",
         "iconPath": "static/tabs/orders.png",
         "selectedIconPath": "static/tabs/orders-active.png"
       },
       {
-        "text": "奖励金",
-        "pagePath": "pages/inviteFriend/main",
+        "text": "我的",
+        "pagePath": "pages/my/main",
         "iconPath": "static/tabs/money.png",
         "selectedIconPath": "static/tabs/money-active.png"
-      }
-    ],
-    "items": [
-      {
-        "name": "首页",
-        "pagePath": "pages/index/main",
-        "icon": "static/tabs/home.png",
-        "activeIcon": "static/tabs/home-active.png"
-      },
-      {
-        "name": "订单",
-        "pagePath": "pages/logs/main",
-        "icon": "static/tabs/orders.png",
-        "activeIcon": "static/tabs/orders-active.png"
-      },
-      {
-        "name": "奖励金",
-        "pagePath": "pages/inviteFriend/main",
-        "icon": "static/tabs/money.png",
-        "activeIcon": "static/tabs/money-active.png"
       }
     ],
     "position": "bottom"

@@ -4,9 +4,6 @@
 }
 
 .article-detail {
-  width: 100vw;
-  position: relative;
-  overflow: hidden;
 
   &-title {
     @extend .box;
