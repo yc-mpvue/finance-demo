@@ -4,7 +4,7 @@
       src="/static/images/banner_yqhy.png"
       alt="">
     <div class="main">
-      <div>
+      <div class=" ">
 
       </div>
     </div>
@@ -23,7 +23,7 @@ export default {
     height: 300rpx;
   }
   .main {
-    background-color: red;
+    // background-color: red;
     min-height: calc(100vh - 300rpx);
   }
 }
