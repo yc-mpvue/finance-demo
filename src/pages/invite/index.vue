@@ -121,7 +121,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .inviteRecord {
-  margin-bottom: 120rpx;
+  margin-bottom: 40rpx;
 
   .banner {
     height: 300rpx;
